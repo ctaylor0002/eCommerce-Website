@@ -1,7 +1,72 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
 html {
     box-sizing: border-box;
+    font-size: 62.5%;
 }
 
 body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+header {
+    position: relative;
+    width: 80%;
+    margin: 1rem auto;
+    height: 110px;
+    
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    border-bottom: 5px;
+}
+
+nav ul {
+    list-style-type: none;
+    top: 0.7rem;
+    font-size: 20px;
+ }
+
+ nav li {
+    display: inline;
+    margin-right: 4rem;
+    
+}
+
+nav img {
+    width: 40px;
+}
+
+nav h2 {
+    font-size: 30px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.header__search {
+   position: absolute;
+   right: 1rem;
+}
+
+.header__search a {
+    margin-left: 2rem;
+}
+
+.header__logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
