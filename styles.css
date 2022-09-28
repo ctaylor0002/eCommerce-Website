@@ -25,6 +25,9 @@ nav {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    border-bottom: black;
+    border-bottom-style: solid;
+    padding-bottom: 10px;
 }
 
 .header__nav {
@@ -71,6 +74,12 @@ nav {
 
 .header__search input {
     margin-right: 2rem;
+    background-image: url(./assets/1200px-Google_Magnifying_Glass.svg.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 292px;
+    padding-left: 10px;
 }
 
 .header__search a {
