@@ -8,41 +8,42 @@
     <link rel="stylesheet" href="./styles.css"/>
 </head>
 <body>
+
     <header>
         <nav>
-            <section class="header__nav">
+            <div class="header__nav">
                 <ul>
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">ABOUT</a></li>
-                    <li><a href="#">PRODUCTS</a></li>
-                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#products">PRODUCTS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
                 </ul>
-            </section>
+            </div>
             
-            <section class="header__logo">
+            <div class="header__logo">
                 <h2 id="cara1">CARA</h2>
                 <img src="./assets/icons8-pottery-96.png" alt="Brown Pot"/>
                 <h2 id="cara2">CARA</h2>
             
-            </section>
+            </div>
 
-            <section class="header__search">
+            <div class="header__search">
                 <input type="text">
                 <a>CART (0)</a>
-            </section>
+            </div>
 
 
         </nav>
     </header>
 
     <main>
-        <div class="main__image">
+        <div class="main__image" id="home">
             <p>CERAMICS CRAFTED BY HAND...</p>
             <img src="./assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg" alt="Man forming a pot"/>
             <p>... FROM THE GROUND UP</p>
         </div>
 
-        <div class="main__about-us">
+        <div class="main__about-us" id="about">
             <h1>ABOUT US</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                 sed do eiusmod tempor incididunt ut labore et dolore magna 
@@ -80,173 +81,192 @@
 
         </div>
 
-        <div class="main__products">
+        <div class="main__products" id="products">
             <h1>OUR PRODUCTS</h1>
-            <section>
-                <ul>
-                    <li><h3>MUNDO BOWLS</h3></li>
-                    <li>$48.00</li>
-                </ul>
-                <p>
-                    Tincidunt praesent semper feugiat nibh sed. Vulputate 
-                    mi sit amet mauris commodo quis imperdiet massa. Amet 
-                    tellus cras adipiscing enim eu turpis egestas pretium 
-                    aenean. 
-                </p>
-
-                <ul>
-                    <li><a href="">LEARN MORE</a></li>
-                    <button>ADD TO CART</button>
-                </ul>
-            </section>
-
-            <section>
-                <ul>
-                    <li><h3>NATUREZA VASE</h3></li>
-                    <li>$37.00</li>
-                </ul>
-                <p>
-                    Tincidunt praesent semper feugiat nibh sed. Vulputate 
-                    mi sit amet mauris commodo quis imperdiet massa. Amet 
-                    tellus cras adipiscing enim eu turpis egestas pretium 
-                    aenean. 
-                </p>
-
+            <div>
+                <a href="#">
+                    <ul>
+                        <img src="./assets/tom-crew-7HuTGlUfQSo-unsplash.jpg">
+                        <li><h3>MUNDO BOWLS</h3></li>
+                        <li>$48.00</li>
+                    
+                    </ul>
+                    <p>
+                        Tincidunt praesent semper feugiat nibh sed. Vulputate 
+                        mi sit amet mauris commodo quis imperdiet massa. Amet 
+                        tellus cras adipiscing enim eu turpis egestas pretium 
+                        aenean. 
+                    </p>
+                </a>
                 <ul>
                     <li><a href="">LEARN MORE</a></li>
                     <button>ADD TO CART</button>
                 </ul>
-            </section>
+            </div>
+
+            <div>
+                <a href="#">
+                    <ul>
+                        <img src="./assets/oriento-maVIpNNtmlQ-unsplash.jpg">
+                        <li><h3>NATUREZA VASE</h3></li>
+                        <li>$37.00</li>
+                    </ul>
+                    <p>
+                        Tincidunt praesent semper feugiat nibh sed. Vulputate 
+                        mi sit amet mauris commodo quis imperdiet massa. Amet 
+                        tellus cras adipiscing enim eu turpis egestas pretium 
+                        aenean. 
+                    </p>
+                </a>
+                <ul>
+                    <li><a href="">LEARN MORE</a></li>
+                    <button>ADD TO CART</button>
+                </ul>
+            </div>
             
-            <section>
-                <ul>
-                    <li><h3>FEIRA BOWLS</h3></li>
-                    <li>$29.00</li>
-                </ul>
-                <p>
-                    Tincidunt praesent semper feugiat nibh sed. Vulputate 
-                    mi sit amet mauris commodo quis imperdiet massa. Amet 
-                    tellus cras adipiscing enim eu turpis egestas pretium 
-                    aenean. 
-                </p>
-
-                <ul>
-                    <li><a href="">LEARN MORE</a></li>
-                    <button>ADD TO CART</button>
-                </ul>
-            </section>
-
-            <section>
-                <ul>
-                    <li><h3>NATUREZA POTS</h3></li>
-                    <li>$59.00</li>
-                </ul>
-                <p>
-                    Tincidunt praesent semper feugiat nibh sed. Vulputate 
-                    mi sit amet mauris commodo quis imperdiet massa. Amet 
-                    tellus cras adipiscing enim eu turpis egestas pretium 
-                    aenean. 
-                </p>
-
+            <div>
+                <a href="#">
+                    <ul>
+                        <img src="./assets/tom-crew-bgIO-u4GEfI-unsplash.jpg">
+                        <li><h3>FEIRA BOWLS</h3></li>
+                        <li>$29.00</li>
+                    </ul>
+                    <p>
+                        Tincidunt praesent semper feugiat nibh sed. Vulputate 
+                        mi sit amet mauris commodo quis imperdiet massa. Amet 
+                        tellus cras adipiscing enim eu turpis egestas pretium 
+                        aenean. 
+                    </p>
+                </a>
                 <ul>
                     <li><a href="">LEARN MORE</a></li>
                     <button>ADD TO CART</button>
                 </ul>
-            </section>
+            </div>
 
-            <section>
-                <ul>
-                    <li><h3>PEDRA VASE</h3></li>
-                    <li>$31.00</li>
-                </ul>
-                <p>
-                    Tincidunt praesent semper feugiat nibh sed. Vulputate 
-                    mi sit amet mauris commodo quis imperdiet massa. Amet 
-                    tellus cras adipiscing enim eu turpis egestas pretium 
-                    aenean. 
-                </p>
-
-                <ul>
-                    <li><a href="">LEARN MORE</a></li>
-                    <button>ADD TO CART</button>
-                </ul>
-            </section>
-
-            <section>
-                <ul>
-                    <li><h3>VIAJA POTS</h3></li>
-                    <li>$57.00</li>
-                </ul>
-                <p>
-                    Tincidunt praesent semper feugiat nibh sed. Vulputate 
-                    mi sit amet mauris commodo quis imperdiet massa. Amet 
-                    tellus cras adipiscing enim eu turpis egestas pretium 
-                    aenean. 
-                </p>
-
+            <div>
+                <a href="#">
+                    <ul>
+                        <img src="./assets/tom-crew-3uwu5K0RtaE-unsplash.jpg">
+                        <li><h3>NATUREZA POTS</h3></li>
+                        <li>$59.00</li>
+                    </ul>
+                    <p>
+                        Tincidunt praesent semper feugiat nibh sed. Vulputate 
+                        mi sit amet mauris commodo quis imperdiet massa. Amet 
+                        tellus cras adipiscing enim eu turpis egestas pretium 
+                        aenean. 
+                    </p>
+                </a>
                 <ul>
                     <li><a href="">LEARN MORE</a></li>
                     <button>ADD TO CART</button>
                 </ul>
-            </section>
+            </div>
 
-            <section>
-                <ul>
-                    <li><h3>SERVICO PLATES</h3></li>
-                    <li>$35.00</li>
-                </ul>
-                <p>
-                    Tincidunt praesent semper feugiat nibh sed. Vulputate 
-                    mi sit amet mauris commodo quis imperdiet massa. Amet 
-                    tellus cras adipiscing enim eu turpis egestas pretium 
-                    aenean. 
-                </p>
-
-                <ul>
-                    <li><a href="">LEARN MORE</a></li>
-                    <button>ADD TO CART</button>
-                </ul>
-            </section>
-
-            <section>
-                <ul>
-                    <li><h3>CAMPEÃO VASE</h3></li>
-                    <li>$37.00</li>
-                </ul>
-                <p>
-                    Tincidunt praesent semper feugiat nibh sed. Vulputate 
-                    mi sit amet mauris commodo quis imperdiet massa. Amet 
-                    tellus cras adipiscing enim eu turpis egestas pretium 
-                    aenean. 
-                </p>
-
+            <div>
+                <a href="#">
+                    <ul>
+                        <img src="./assets/linh-le-a0rE64YJDA4-unsplash.jpg">
+                        <li><h3>PEDRA VASE</h3></li>
+                        <li>$31.00</li>
+                    </ul>
+                    <p>
+                        Tincidunt praesent semper feugiat nibh sed. Vulputate 
+                        mi sit amet mauris commodo quis imperdiet massa. Amet 
+                        tellus cras adipiscing enim eu turpis egestas pretium 
+                        aenean. 
+                    </p>
+                </a>
                 <ul>
                     <li><a href="">LEARN MORE</a></li>
                     <button>ADD TO CART</button>
                 </ul>
-            </section>
+            </div>
+
+            <div>
+                <a href="#">
+                    <ul>
+                        <img src="./assets/tom-crew-oiZAQvxTcYQ-unsplash.jpg">
+                        <li><h3>VIAJA POTS</h3></li>
+                        <li>$57.00</li>
+                    </ul>
+                    <p>
+                        Tincidunt praesent semper feugiat nibh sed. Vulputate 
+                        mi sit amet mauris commodo quis imperdiet massa. Amet 
+                        tellus cras adipiscing enim eu turpis egestas pretium 
+                        aenean. 
+                    </p>
+                </a>
+                <ul>
+                    <li><a href="">LEARN MORE</a></li>
+                    <button>ADD TO CART</button>
+                </ul>
+            </div>
+
+            <div>
+                <a href="#"> 
+                    <ul>
+                        <img src="./assets/tom-crew-YA2E3d7a9Wo-unsplash.jpg">
+                        <li><h3>SERVICO PLATES</h3></li>
+                        <li>$35.00</li>
+                    </ul>
+                    <p>
+                        Tincidunt praesent semper feugiat nibh sed. Vulputate 
+                        mi sit amet mauris commodo quis imperdiet massa. Amet 
+                        tellus cras adipiscing enim eu turpis egestas pretium 
+                        aenean. 
+                    </p>
+                    </a>
+                <ul>
+                    <li><a href="">LEARN MORE</a></li>
+                    <button>ADD TO CART</button>
+                </ul>
+            </div>
+
+            <div>
+                <a href="#">
+                    <ul>
+                        <img src="./assets/oriento-l0ah3UBLppo-unsplash.jpg">
+                        <li><h3>CAMPEÃO VASE</h3></li>
+                        <li>$37.00</li>
+                    </ul>
+                    <p>
+                        Tincidunt praesent semper feugiat nibh sed. Vulputate 
+                        mi sit amet mauris commodo quis imperdiet massa. Amet 
+                        tellus cras adipiscing enim eu turpis egestas pretium 
+                        aenean. 
+                    </p>
+                </a>
+                <ul>
+                    <li><a href="">LEARN MORE</a></li>
+                    <button>ADD TO CART</button>
+                </ul>
+            </div>
             
-            <section>
-                <ul>
-                    <li><h3>TROCA BOWLS</h3></li>
-                    <li>$25.00</li>
-                </ul>
-                <p>
-                    Tincidunt praesent semper feugiat nibh sed. Vulputate 
-                    mi sit amet mauris commodo quis imperdiet massa. Amet 
-                    tellus cras adipiscing enim eu turpis egestas pretium 
-                    aenean. 
-                </p>
-
+            <div>
+                <a href="#">
+                    <ul>
+                        <img src="./assets/tom-crew-SITGdvztUdg-unsplash.jpg">
+                        <li><h3>TROCA BOWLS</h3></li>
+                        <li>$25.00</li>
+                    </ul>
+                    <p>
+                        Tincidunt praesent semper feugiat nibh sed. Vulputate 
+                        mi sit amet mauris commodo quis imperdiet massa. Amet 
+                        tellus cras adipiscing enim eu turpis egestas pretium 
+                        aenean. 
+                    </p>
+                </a>
                 <ul>
                     <li><a href="">LEARN MORE</a></li>
                     <button>ADD TO CART</button>
                 </ul>
-            </section>
+            </div>
 
         </div>
 
-        <div class="main__contact-us">
+        <div class="main__contact-us" id="contact">
             <h1>CONTACT US</h1>
             <form>
                 <h4>EMAIL</h4>
