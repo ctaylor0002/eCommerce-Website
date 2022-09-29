@@ -135,7 +135,6 @@ nav {
 #main__about-us_img2 {
     width: 600px;
     height: 808px;
-    margin-left: 10%;
     transform: translate(0px, -190px);
 }
 
@@ -161,9 +160,147 @@ nav {
 
 #main__about-us_p2 {
     margin-left: 100px;
-    margin-top: 100px;
-    margin-right: 10%;
+    margin-top: 75px;
+    margin-right: 5%;
     width: 30%;
     float: left;
     line-height: 200%;
+}
+.main__products {
+    display: grid;
+    grid-template-areas:
+        "top-l top top-r"
+        "mid-l mid mid-r"
+        "bot-l bot bot-r";
+}
+
+.main__products img {
+    width: 398px;
+    height: 398px;
+}
+
+#our_products_h1 {
+    margin-left: 5%;
+    margin-bottom: 200px;
+    border-bottom: black;
+    border-bottom-style: solid;
+    padding-bottom: 10px;
+    width: 60%;
+    margin-bottom: 100px;
+}
+
+.main__products {
+    display: grid;
+    grid-template-areas:
+        "top-l top top-r"
+        "mid-l mid mid-r"
+        "bot-l bot bot-r";
+    width: 90%;
+    margin: auto; 
+}
+
+.main__products ul {
+    list-style-type: none;
+}
+
+.main__products a {
+    width: 398px;
+    color: black;
+    text-decoration: none;
+}
+
+.main__products div {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20%;
+}
+
+.main__products li {
+    display: inline;
+}
+
+.main__products li a {
+    color:#BF7631;
+    margin-top: 10%;
+    text-decoration: underline
+}
+
+.main__products button {
+    float: right;
+    width: 130px;
+    height: 39px;
+    background-color: #BF7631;
+    border: none;
+    color: white;
+}
+
+
+.main__contact-us h1 {
+    border-bottom: black;
+    border-bottom-style: solid;
+    width: 60%;
+    margin-left: 5%;
+}
+
+.main__contact-us form {
+    width: 60%;
+    margin: auto;
+}
+
+.main__contact-us h4 {
+    margin-top: 2.5%;
+    margin-bottom: 1%;
+}
+
+#email-txt-box {
+    width: 100%;
+    height: 54px;
+}
+
+#message-txt-box {
+    width: 100%;
+    height: 205px;
+}
+
+.main__contact-us button {
+    float: right;
+    margin-top: 10%;
+    width: 130px;
+    height: 39px;
+    background-color: #BF7631;
+    border: none;
+    color: white;
+    margin-bottom: 10%;
+}
+
+footer div {
+    display: flex;
+    background-color: #BF7631;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    align-content: center;
+}
+
+footer li {
+    display: inline;
+}
+
+.footer_part2 {
+    display: flex;
+    flex: 33.33%;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_part2 img {
+    width: 96px;
+    height: 96px;
+}
+
+.footer_part2 h2 {
+    font-size: 40px;
 }
