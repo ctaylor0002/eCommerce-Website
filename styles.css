@@ -12,7 +12,8 @@ html {
 }
 
 body {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
 }
 
 header {
@@ -127,4 +128,42 @@ nav {
 #main__about-us_img1 {
     width: 397px;
     height: 534px;
+    float: left;
+    margin-top: 75px;
+}
+
+#main__about-us_img2 {
+    width: 600px;
+    height: 808px;
+    margin-left: 10%;
+    transform: translate(0px, -190px);
+}
+
+
+.main__about-us {
+    width: 90%;
+    margin: auto;
+}
+
+.main__about-us h1 {
+    margin-top: 100px;
+    border-bottom: black;
+    border-bottom-style: solid;
+    padding-bottom: 10px;
+    width: 60%;
+    margin-bottom: 100px;;
+}
+
+#main__about-us_p1 {
+    width: 60%;
+    line-height: 200%;
+}
+
+#main__about-us_p2 {
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-right: 10%;
+    width: 30%;
+    float: left;
+    line-height: 200%;
 }
